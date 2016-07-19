@@ -1,3 +1,5 @@
+'use strict';
+
 var path = require('path');
 var cssnext = require('postcss-cssnext');
 var postcssImport = require('postcss-import');
