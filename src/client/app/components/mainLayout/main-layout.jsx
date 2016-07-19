@@ -1,7 +1,9 @@
+'use strict';
+
 import React from 'react';
 import { Link } from 'react-router';
 
-const Main = React.createClass({
+class MainLayout extends React.Component {
     render() {
         return (
             <div>
@@ -11,6 +13,6 @@ const Main = React.createClass({
             </div>
         );
     }
-});
+}
 
-export default Main;
+export default MainLayout;
